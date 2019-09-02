@@ -21,6 +21,11 @@
       <h2>Complex Storage</h2>
       <ComplexStorage />
     </div>
+
+    <div class="section">
+      <h2>Tuple</h2>
+      <Tuple />
+    </div>
     <Toast />
   </div>
 
@@ -31,6 +36,7 @@
 import TutorialToken from './TutorialToken'
 import SimpleStorage from './SimpleStorage'
 import ComplexStorage from './ComplexStorage'
+import Tuple from './Tuple';
 import Toast from './Toast'
 import { mapGetters } from 'vuex'
 
@@ -40,6 +46,7 @@ export default {
     ComplexStorage,
     TutorialToken,
     SimpleStorage,
+    Tuple,
     Toast
   },
 
